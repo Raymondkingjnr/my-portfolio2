@@ -1,8 +1,9 @@
 .nav__bar {
   justify-content: space-between;
   flex-direction: row;
-  max-width: 1300px;
-  margin: 1rem auto;
+  max-width: 1600px;
+  padding: 0 5rem;
+  margin: 1.5rem auto;
 }
 .nav__bar-logo-sec {
   display: flex;
@@ -22,14 +23,22 @@
   display: flex;
   justify-content: space-between;
   gap: 20px;
-  align-items: center;
+  /* align-items: center; */
 }
-
+.nav__bar-icons a {
+  background: #fff;
+  height: 15px;
+  font-size: 35px;
+  padding: 10px;
+  color: #000;
+  width: 15px;
+  border-radius: 100%;
+}
 @media screen and (max-width: 1250px) {
   .nav__bar {
     flex-direction: column;
     gap: 27px;
-    margin-top: 2rem;
+    margin-top: 0.5rem;
   }
   .nav__bar-span {
     font-size: 40px;

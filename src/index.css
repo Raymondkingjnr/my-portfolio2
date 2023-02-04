@@ -27,3 +27,10 @@ a {
   text-decoration: none;
   color: #fff;
 }
+.p__poppins {
+  font-family: "inter";
+  line-height: 40px;
+  letter-spacing: 0.04em;
+  font-size: 20px;
+  color: #999999;
+}

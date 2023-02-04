@@ -1,0 +1,69 @@
+.service--section {
+  margin: 15rem auto;
+}
+.service--header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.service--header h1 {
+  font-weight: 900;
+  font-size: 50px;
+  color: #fff;
+  text-transform: capitalize;
+  font-family: "poppins";
+}
+.service--header-line {
+  width: 70px;
+  height: 4px;
+  margin-bottom: 1rem;
+  background: #ffae19;
+}
+.service--section-box {
+  max-width: 500px;
+  height: 400px;
+  background: rgb(18, 18, 18);
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+.service--section-box--container {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: 0 1rem;
+}
+.service--section-box p {
+  color: #999;
+  letter-spacing: 0.04em;
+  padding: 0 2px;
+}
+.service-icon {
+  font-weight: bold;
+  font-size: 45px;
+  margin-top: 2rem;
+  color: #999;
+}
+.service--section-box h2 {
+  font-size: 28px;
+  letter-spacing: 0.04em;
+  line-height: 20px;
+  color: #999;
+  font-family: "poppins";
+}
+@media screen and (max-width: 550px) {
+  .service--section-box p {
+    font-size: 16px;
+  }
+  .service--section-box h2 {
+    font-size: 21px;
+  }
+  .service--header h1 {
+    font-size: 35px;
+    letter-spacing: 0.04em;
+  }
+}

@@ -10,7 +10,7 @@ function Nav() {
         <DiCssdeck className=" icons" />
         <span className="nav__bar-span">portifolio</span>
       </div>
-      <div className="nav__bar-icons icons">
+      <div className="nav__bar-icons">
         {icons.map((item, index) => {
           const { icon, link } = item;
           return (

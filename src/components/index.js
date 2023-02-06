@@ -4,5 +4,6 @@ import Service from "../components/servicecomponents/Service";
 import Projects from "../components/projectscomponents/Projects";
 import Footer from "../components/footercomponents/Footer";
 import Skill from "../components/skillsetcomponents/Skill";
+import Contact from "./contactcomponents/Contact";
 
-export { Navbar, Hero, Service, Projects, Footer, Skill };
+export { Navbar, Hero, Service, Projects, Footer, Skill, Contact };

@@ -1,5 +1,13 @@
 import "./App.css";
-import { Navbar, Hero, Service, Projects, Footer, Skill } from "./components/";
+import {
+  Navbar,
+  Hero,
+  Service,
+  Projects,
+  Footer,
+  Skill,
+  Contact,
+} from "./components/";
 function App() {
   return (
     <div>
@@ -8,6 +16,7 @@ function App() {
       <Service />
       <Skill />
       <Projects />
+      <Contact />
       <Footer />
     </div>
   );

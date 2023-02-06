@@ -2,12 +2,11 @@ import {
   AiOutlineGithub,
   AiOutlineTwitter,
   AiFillInstagram,
-  AiOutlineHtml5,
 } from "react-icons/ai";
-import { FaLinkedinIn, FaReact } from "react-icons/fa";
-import { SiCss3, SiTailwindcss } from "react-icons/si";
-import { TbBrandJavascript } from "react-icons/tb";
-
+import { FaLinkedinIn } from "react-icons/fa";
+import chatGbt from "../assets/chatgbt.png";
+import cockTail from "../assets/cocktail.png";
+import gericht from "../assets/gerict.png";
 const icons = [
   {
     id: "0",
@@ -34,34 +33,51 @@ const icons = [
   },
 ];
 
-const skillSet = [
+const SkillSet = [
   {
     id: 0,
-    icon: <AiOutlineHtml5 />,
     text: "html",
   },
   {
     id: 0,
-    icon: <SiCss3 />,
     text: "Css",
   },
   {
     id: 0,
-    icon: <FaReact />,
     text: "React",
   },
   {
     id: 0,
-    icon: <TbBrandJavascript />,
     text: "javascript(ES6)",
   },
   {
     id: 0,
-    icon: <SiTailwindcss />,
     text: "tailwindcss",
   },
 ];
 
-const projects = [{}];
+const projects = [
+  {
+    id: 0,
+    img: gericht,
+    tag: "react",
+    site: "https://gericht01.netlify.app/",
+    code: "https://github.com/Raymondkingjnr/Getrich-Restaurant-",
+  },
+  {
+    id: 1,
+    img: chatGbt,
+    tag: "react",
+    site: "https://gbt3ai.netlify.app/",
+    code: "https://github.com/Raymondkingjnr/gbt3",
+  },
+  {
+    id: 2,
+    img: cockTail,
+    tag: "React , API",
+    site: "https://cocktailsite2.netlify.app/",
+    code: "https://github.com/Raymondkingjnr/cocktail-site",
+  },
+];
 
-export { icons, projects, skillSet };
+export { icons, projects, SkillSet };

@@ -1,7 +1,27 @@
 import React from "react";
+import { SkillSet } from "../../constant/data";
+import { BsPercent } from "react-icons/bs";
 import "./skill.css";
 function Skill() {
-  return <div>Skill</div>;
+  return (
+    <div className="skill--container section-width">
+      <div className="skill--container_header">
+        <h1>Skillset</h1>
+        <div className="skill--container_line"></div>
+      </div>
+      <div className="skill--container_items">
+        {SkillSet.map((item, index) => {
+          const { text } = item;
+          return (
+            <div className="skill--container_item" key={index}>
+              <div className="skills--percent"></div>
+              <p className="p__poppins">{text}</p>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
 }
 
 export default Skill;

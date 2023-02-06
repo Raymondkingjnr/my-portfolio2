@@ -1,0 +1,60 @@
+.skill--container {
+  margin-top: 10rem;
+}
+.skill--container_items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.skill--container_item {
+  text-align: center;
+  margin-top: 4rem;
+  display: flex;
+}
+.skill-icons {
+  font-size: 6rem;
+  color: rgb(104, 102, 102);
+  cursor: pointer;
+}
+.skill--container_header h1 {
+  font-family: "poppins";
+  font-size: 30px;
+  color: gray;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-bottom: o;
+}
+.skill--container_item p {
+  font-weight: 300;
+  font-size: 30px;
+  text-transform: capitalize;
+  margin-top: 0;
+}
+.skill--container_line {
+  width: 100px;
+  height: 5px;
+  background: #ffae19;
+}
+.skills--percent {
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  padding: 2px;
+  background: #ffae19;
+  margin-top: 1.5rem;
+  margin-right: 1rem;
+}
+
+@media screen and (max-width: 1150px) {
+  .skill--container_header {
+    padding: 0 2rem 0 2rem;
+  }
+  .skill--container_items {
+    padding: 0 2rem 0 2rem;
+  }
+  .skill--container_item p {
+    font-size: 23px;
+  }
+}

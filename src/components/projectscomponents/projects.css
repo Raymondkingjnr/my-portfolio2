@@ -21,8 +21,9 @@
 }
 .projects--section__items {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
+  gap: 20px;
   align-items: center;
   margin-top: 5rem;
 }

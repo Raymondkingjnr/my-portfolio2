@@ -74,7 +74,7 @@ const projects = [
   {
     id: 2,
     img: cockTail,
-    tag: "React , API",
+    tag: "React , API, React-Router-Dom",
     site: "https://cocktailsite2.netlify.app/",
     code: "https://github.com/Raymondkingjnr/cocktail-site",
   },

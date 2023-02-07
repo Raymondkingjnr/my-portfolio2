@@ -1,4 +1,5 @@
 import React from "react";
+import { icons } from "../../constant/data";
 import imagehero from "../../assets/hero.png";
 import "./hero.css";
 function Hero() {
@@ -14,6 +15,13 @@ function Hero() {
           everyone.
         </p>
         <button className="portfolio-btn btn">Contact me</button>
+        <div className="hero--icons">
+          {icons.map((icon, index) => (
+            <div className="hero--icon-item" key={index}>
+              <a href={icon.link}>{icon.icon}</a>
+            </div>
+          ))}
+        </div>
       </div>
       <div className="portifolio-img_section">
         <div className="portfolio-circle"></div>

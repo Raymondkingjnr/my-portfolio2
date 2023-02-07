@@ -1,6 +1,7 @@
 .section-width {
   max-width: 1600px;
   margin: 3rem auto;
+  padding: 0 1rem 0 1rem;
 }
 .flex-center {
   display: flex;

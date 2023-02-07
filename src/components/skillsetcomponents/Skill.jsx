@@ -1,6 +1,5 @@
 import React from "react";
 import { SkillSet } from "../../constant/data";
-import { BsPercent } from "react-icons/bs";
 import "./skill.css";
 function Skill() {
   return (

@@ -5,7 +5,7 @@ import "./nav.css";
 
 function Nav() {
   return (
-    <nav className="nav__bar flex-center">
+    <nav className="nav__bar flex-center section-width">
       <div className="nav__bar-logo-sec">
         <DiCssdeck className=" icons" />
         <span className="nav__bar-span">portifolio</span>
@@ -14,7 +14,7 @@ function Nav() {
         {icons.map((item, index) => {
           const { icon, link } = item;
           return (
-            <div key={index}>
+            <div key={index} className="nav--icons icons">
               <a href={link}>{icon}</a>
             </div>
           );

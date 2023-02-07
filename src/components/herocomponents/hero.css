@@ -6,6 +6,8 @@
   text-align: left;
   margin-top: 15rem;
   max-width: 560px;
+  display: flex;
+  flex-direction: column;
 }
 .portfolio__hero-text h2 {
   font-weight: 800;
@@ -47,9 +49,24 @@
   left: 12px;
   position: absolute;
 }
-/* .portfolio-btn {
-  background-color: #ffae19;
-} */
+.hero--icons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 2rem;
+  display: none;
+}
+.hero--icon-item {
+  height: 40px;
+  width: 40px;
+  padding: 10px;
+  background: #fff;
+  border-radius: 100%;
+}
+.hero--icon-item a {
+  font-size: 40px;
+  color: #000;
+}
 .portfolio-btn {
   position: relative;
   display: block;
@@ -105,5 +122,8 @@
   }
   .portfolio-line {
     width: 150px;
+  }
+  .hero--icons {
+    display: flex;
   }
 }

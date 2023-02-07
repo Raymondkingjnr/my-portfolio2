@@ -9,11 +9,11 @@ function Projects() {
         <div className="projects--section_line"></div>
       </div>
 
-      <div className="projects--section__items">
+      <div className="projects--section__items flex-center">
         {projects.map((item, index) => {
-          const { img, code, site, tag } = item;
+          const { id, img, code, site, tag } = item;
           return (
-            <div className="projects--item">
+            <div className="projects--item" key={id}>
               <img src={img} alt="img" />
               <div className="project--item_notes">
                 <p className="p__poppins project--tag">[ {tag} ]</p>

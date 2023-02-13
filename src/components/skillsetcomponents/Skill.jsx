@@ -10,10 +10,10 @@ function Skill() {
       </div>
       <div className="skill--container_items">
         {SkillSet.map((item, index) => {
-          const { text } = item;
+          const { text, icon, id } = item;
           return (
-            <div className="skill--container_item" key={index}>
-              <div className="skills--percent"></div>
+            <div className="skill--container_item" key={id}>
+              <div className="skill-icons icons">{icon}</div>
               <p className="p__poppins">{text}</p>
             </div>
           );

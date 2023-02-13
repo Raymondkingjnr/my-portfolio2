@@ -28,7 +28,7 @@ function Service() {
           <p className="p__poppins">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
             suscipit impedit, illo dolorem ullam delectus ipsa eos quos
-            recusandae tempore.
+            recusandae tempore.``
           </p>
         </div>
         <div className="service--section-box">

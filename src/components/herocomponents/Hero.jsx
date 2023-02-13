@@ -14,7 +14,7 @@ function Hero() {
           exceptional websites, applications, and making the web accessible to
           everyone.
         </p>
-        <button className="portfolio-btn btn">Contact me</button>
+        <button className="portfolio-btn btn heartbeat">Contact me</button>
         <div className="hero--icons">
           {icons.map((icon, index) => (
             <div className="hero--icon-item" key={index}>

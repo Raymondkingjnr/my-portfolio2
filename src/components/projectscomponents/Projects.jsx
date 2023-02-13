@@ -9,7 +9,7 @@ function Projects() {
         <div className="projects--section_line"></div>
       </div>
 
-      <div className="projects--section__items flex-center">
+      <div className="projects--section__items">
         {projects.map((item, index) => {
           const { id, img, code, site, tag } = item;
           return (

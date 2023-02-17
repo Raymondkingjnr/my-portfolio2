@@ -2,11 +2,11 @@ import React from "react";
 import "./contact.css";
 function Contact() {
   return (
-    <div className="section--form_sec section-width">
+    <div className="section--form_sec section-width" id="contact">
       <div className="contact--form_header">
         <h1>Contact</h1>
         <div className="form--underline"></div>
-        <p className="p__poppins">
+        <p className="p__poppins contact-text">
           submit the form below or send me an email - nnajiarinze001@gmail.com
         </p>
       </div>

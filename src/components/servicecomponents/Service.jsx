@@ -16,19 +16,17 @@ function Service() {
           <h2>Web development</h2>
           <div className="service--header-line"></div>
           <p className="p__poppins">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-            suscipit impedit, illo dolorem ullam delectus ipsa eos quos
-            recusandae tempore.
+            Using modern web development tools such as html,Css and React to
+            create awesome websites,With a user friendly interface design
           </p>
         </div>
         <div className="service--section-box">
           <MdDesignServices className="service-icon icon" />
-          <h2>web design</h2>
+          <h2>Responsive design</h2>
           <div className="service--header-line"></div>
           <p className="p__poppins">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-            suscipit impedit, illo dolorem ullam delectus ipsa eos quos
-            recusandae tempore.``
+            The ability to create a modern website that can be accessible on
+            laptops, ipads and mobile phones
           </p>
         </div>
         <div className="service--section-box">
@@ -36,9 +34,8 @@ function Service() {
           <h2>Fast delivery</h2>
           <div className="service--header-line"></div>
           <p className="p__poppins">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-            suscipit impedit, illo dolorem ullam delectus ipsa eos quos
-            recusandae tempore.
+            Get Your own website deployed to the web within a short period of
+            time
           </p>
         </div>
       </div>

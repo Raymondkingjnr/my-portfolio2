@@ -10,6 +10,10 @@
   max-width: 700px;
   margin: auto;
 }
+.contact-text {
+  line-height: 40px;
+  letter-spacing: 2px;
+}
 input,
 textarea {
   width: 100%;
@@ -28,9 +32,9 @@ textarea {
   max-width: 700px;
 }
 .contact--form_header h1 {
-  color: gray;
+  color: white;
   font-family: "poppins";
-  letter-spacing: 0.04em;
+  letter-spacing: 0.05em;
   font-weight: 900;
 }
 .form--underline {

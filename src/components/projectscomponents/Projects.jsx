@@ -14,7 +14,10 @@ function Projects() {
           const { id, img, code, site, tag } = item;
           return (
             <div className="projects--item" key={id}>
-              <img src={img} alt="img" />
+              <div className="project--img">
+                <img src={img} alt="img" />
+                <div className="overlay"></div>
+              </div>
               <div className="project--item_notes">
                 <p className="p__poppins project--tag">[ {tag} ]</p>
                 <div className="project--item_btn">

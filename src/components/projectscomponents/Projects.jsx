@@ -10,7 +10,7 @@ function Projects() {
       </div>
 
       <div className="projects--section__items">
-        {projects.map((item, index) => {
+        {projects.map((item) => {
           const { id, img, code, site, tag } = item;
           return (
             <div className="projects--item" key={id}>

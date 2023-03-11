@@ -32,10 +32,11 @@ textarea {
   max-width: 700px;
 }
 .contact--form_header h1 {
-  color: white;
-  font-family: "poppins";
-  letter-spacing: 0.05em;
-  font-weight: 900;
+  font-family: "Tilt Prism";
+  color: orange;
+  font-size: 30px;
+  letter-spacing: 0.02em;
+  line-height: 3rem;
 }
 .form--underline {
   width: 70px;
@@ -48,9 +49,11 @@ textarea {
   line-height: 31px;
   font-weight: 600;
 }
+.contact--form button {
+  font-size: 15px;
+}
 .contact--form_btn {
   background: #ffae19;
-  font-weight: 900;
 }
 
 @media screen and (max-width: 650px) {

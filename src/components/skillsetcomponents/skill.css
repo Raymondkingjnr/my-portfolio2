@@ -17,13 +17,13 @@
   padding-right: 1rem;
 }
 .skill--container_header h1 {
-  font-family: "poppins";
+  font-family: "Tilt Prism";
+  color: orange;
+  padding-bottom: 5px;
   font-size: 30px;
-  color: gray;
-  letter-spacing: 0.1em;
-  text-transform: capitalize;
-  font-weight: bold;
-  margin-bottom: o;
+  letter-spacing: 0.04em;
+  line-height: 3rem;
+  margin-bottom: 0;
 }
 .skill--container_item p {
   font-weight: 300;
@@ -32,8 +32,9 @@
   margin-top: 0;
 }
 .skill--container_line {
-  width: 100px;
+  width: 70px;
   height: 5px;
+
   background: #ffae19;
 }
 .skills--percent {

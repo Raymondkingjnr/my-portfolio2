@@ -1,7 +1,7 @@
 import React from "react";
-import { FaCode } from "react-icons/fa";
+import { FaCode, FaFirefoxBrowser } from "react-icons/fa";
 import { MdDesignServices } from "react-icons/md";
-import { GiPlayerTime } from "react-icons/gi";
+import { BsBrowserChrome } from "react-icons/bs";
 import "./service.css";
 function Service() {
   return (
@@ -11,7 +11,7 @@ function Service() {
         <div className="service--header-line"></div>
       </div>
       <div className="service--section-box--container flex-center">
-        <div className="service--section-box">
+        <div className="service--section-box ">
           <FaCode className="service-icon icon" />
           <h2>Web development</h2>
           <div className="service--header-line"></div>
@@ -20,7 +20,7 @@ function Service() {
             create awesome websites,With a user friendly interface design
           </p>
         </div>
-        <div className="service--section-box">
+        <div className="service--section-box ">
           <MdDesignServices className="service-icon icon" />
           <h2>Responsive design</h2>
           <div className="service--header-line"></div>
@@ -29,13 +29,13 @@ function Service() {
             laptops, ipads and mobile phones
           </p>
         </div>
-        <div className="service--section-box">
-          <GiPlayerTime className="service-icon icon" />
-          <h2>Fast delivery</h2>
+        <div className="service--section-box ">
+          <FaFirefoxBrowser className="service-icon icon" />
+          <h2>Developing Across Browsers</h2>
           <div className="service--header-line"></div>
           <p className="p__poppins">
-            Get Your own website deployed to the web within a short period of
-            time
+            Developing web applications that functions across the full range of
+            all the Browsers that are available today
           </p>
         </div>
       </div>

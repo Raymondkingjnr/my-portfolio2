@@ -8,11 +8,12 @@
   margin-bottom: 2rem;
 }
 .service--header h1 {
-  font-weight: 900;
-  font-size: 50px;
-  color: #fff;
-  text-transform: capitalize;
-  font-family: "poppins";
+  font-family: "Tilt Prism";
+  color: orange;
+  font-size: 60px;
+  letter-spacing: 0.03em;
+  line-height: 3rem;
+  font-weight: 800;
 }
 .service--header-line {
   width: 70px;
@@ -20,6 +21,7 @@
   margin-bottom: 1rem;
   background: #ffae19;
 }
+
 .service--section-box {
   max-width: 500px;
   height: 400px;
@@ -31,9 +33,11 @@
   align-items: center;
   cursor: pointer;
 }
+
 .service--section-box--container {
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: flex-start;
   gap: 25px;
   margin: 0 1rem;
 }

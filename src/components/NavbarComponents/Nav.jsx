@@ -15,7 +15,9 @@ function Nav() {
           const { icon, link } = item;
           return (
             <div key={index} className="nav--icons icons">
-              <a href={link}>{icon}</a>
+              <a href={link} className="navbar-icon">
+                {icon}
+              </a>
             </div>
           );
         })}

@@ -40,7 +40,7 @@
   text-align: justify;
   transition: all 0.3s ease-in-out;
 }
-.nav--icons a:hover {
+.nav--icons:hover a {
   transform: scale(1.1);
 }
 

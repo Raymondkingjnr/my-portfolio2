@@ -15,6 +15,7 @@ import chatGbt from "../assets/chatgbt.png";
 import cockTail from "../assets/cocktail.png";
 import gericht from "../assets/gerict.png";
 import banking from "../assets/banking.png";
+
 const icons = [
   {
     id: "0",

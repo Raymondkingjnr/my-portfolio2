@@ -11,19 +11,25 @@
   flex-direction: column;
 }
 .portfolio__hero-text h2 {
-  font-weight: 800;
-  font-size: 45px;
+  font-weight: 500;
+  font-size: 25px;
+  font-family: "poppins";
+  color: #fff;
+}
+.portfolio__hero-text h1 {
+  font-weight: 300;
+  font-size: 30px;
   font-family: "Tilt Prism";
-  color: #999999;
+  color: #fff;
 }
 .portfolio__hero-text p {
   font-family: "Tilt Prism";
-  line-height: 10rem;
+  line-height: 8.5rem;
   margin-top: 0;
   letter-spacing: 0.04em;
   font-weight: 900;
   text-align: center;
-  font-size: 10rem;
+  font-size: 7rem;
   margin-bottom: 3rem;
   color: #fff;
   padding-left: 0;
@@ -93,11 +99,15 @@
   }
   .portfolio__hero-text p {
     text-align: left;
-    line-height: 9rem;
-    font-size: 8rem;
+    line-height: 5rem;
+    font-size: 5.5rem;
   }
   .portifolio-img_section {
     margin-top: 3rem;
+  }
+
+  .portfolio__hero-text h2 {
+    font-size: 2rem;
   }
 }
 @media screen and (max-width: 600px) {
@@ -112,13 +122,16 @@
     align-items: flex-start;
   }
   .portfolio__hero-text h2 {
-    font-size: 25px;
-    margin-bottom: 2rem;
+    font-size: 20px;
+    margin-bottom: 1.5rem;
   }
   .portfolio__hero-text {
     padding-left: 2rem;
   }
 
+  .portfolio__hero-text p {
+    font-size: 2.5rem;
+  }
   .portfolio-line {
     width: 150px;
   }
@@ -130,9 +143,17 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 450px) {
   .portfolio__hero-text p {
-    font-size: 3rem;
-    line-height: 4.5rem;
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .portfolio__hero-text h1 {
+    font-size: 15px;
+  }
+  .portfolio-btn {
+    padding: 5px;
+    width: 150px;
+    font-size: 12px;
   }
 }

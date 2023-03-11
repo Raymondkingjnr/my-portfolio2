@@ -1,7 +1,6 @@
 import React from "react";
 import { FaCode, FaFirefoxBrowser } from "react-icons/fa";
 import { MdDesignServices } from "react-icons/md";
-import { BsBrowserChrome } from "react-icons/bs";
 import "./service.css";
 function Service() {
   return (

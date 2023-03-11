@@ -54,6 +54,7 @@ textarea {
 }
 .contact--form_btn {
   background: #ffae19;
+  color: #fff;
 }
 
 @media screen and (max-width: 650px) {

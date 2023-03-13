@@ -13,8 +13,8 @@ function About() {
         <h2>About Me</h2>
         <p className="p__poppins">
           Am a self-thought frontend developer based in Nigeria. I have serious
-          passion for building amazing web applications, creating intresting
-          user experince and making every element in the web accessible to
+          passion for building amazing web applications, creating interesting
+          user experience and making every element in the web accessible to
           everyone.
         </p>
       </div>

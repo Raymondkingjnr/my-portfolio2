@@ -25,7 +25,7 @@ function Service() {
           <div className="service--header-line"></div>
           <p className="p__poppins">
             The ability to create a modern website that can be accessible on
-            laptops, ipads and mobile phones
+            laptops, tablets and mobile phones
           </p>
         </div>
         <div className="service--section-box ">
